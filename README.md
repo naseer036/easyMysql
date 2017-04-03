@@ -60,6 +60,9 @@ why write queries again and again when you can let your system remember them.
  	19	| duplicate_condition        | varchar(5)   | YES  |     | all     |       |
  		+----------------------------+--------------+------+-----+---------+-------+
  select @1#1			//@1#1 gets the first column, first row value and insert's it there
+ 
  select tabid,@1#2		//@1#2 gets the first column, second rwo value and insets it in place of the command
+ 
  select tabid,name from vtiger_tab
+ 
  select tabid,name from vtiger_tab
