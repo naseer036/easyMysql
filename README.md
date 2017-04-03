@@ -3,13 +3,13 @@ why write queries again and again when you can let your system remember them.
 
 #phase-1
 
-	##commands
+	commands
 		sq store the previously ran query
 		s store current query in register
 		. show query in register
 		; execute the query in register
 
-	##Main Menu
+	Main Menu
 		1. query mode
 		2. execute stores query
 		3. show stored query
@@ -17,15 +17,15 @@ why write queries again and again when you can let your system remember them.
 		5. search queries
 
 #phase-2
-	##run command 
+	run command 
 		#1. show -> c1
 		#2. desc -> c2
 		#3. select -> c3
 		#4. like -> c4
 		#5. use -> c5#c database command menus
-	##e execute the current command and display output
-	##@columnName use previous result column position/name
-	##rowNumber use previous result row position
+	e execute the current command and display output
+	@columnName use previous result column position/name
+	rowNumber use previous result row position
 
 #Expected output for phase-2
 	example query 
