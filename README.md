@@ -18,11 +18,11 @@ why write queries again and again when you can let your system remember them.
 
 #phase-2
 	run command 
-		#1. show -> c1
-		#2. desc -> c2
-		#3. select -> c3
-		#4. like -> c4
-		#5. use -> c5#c database command menus
+		1. show -> c1
+		2. desc -> c2
+		3. select -> c3
+		4. like -> c4
+		5. use -> c5#c database command menus
 	e execute the current command and display output
 	@columnName use previous result column position/name
 	rowNumber use previous result row position
