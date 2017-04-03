@@ -17,17 +17,20 @@ why write queries again and again when you can let your system remember them.
 		5. search queries
 
 #phase-2
+
 	run command 
 		1. show -> c1
 		2. desc -> c2
 		3. select -> c3
 		4. like -> c4
 		5. use -> c5#c database command menus
+
 	e execute the current command and display output
 	@columnName use previous result column position/name
 	rowNumber use previous result row position
 
 #Expected output for phase-2
+
 	example query 
 	-> select tabid,name from vtiger_tab;
 	select  c-2 e 'vtiger_tab' 	// c-2 e 'vtiger_tab' describes the table specified and displays the output. the out put can be used in the current query
